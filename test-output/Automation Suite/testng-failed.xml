@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Automation Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="Firefox Test(failed)">
+    <classes>
+      <class name="day13_05202018.ExpressTest">
+        <methods>
+          <include name="methodName"/>
+          <include name="endTest"/>
+          <include name="expressCheckout"/>
+          <include name="close"/>
+          <include name="defineBrowse"/>
+          <include name="addQuantity"/>
+        </methods>
+      </class> <!-- day13_05202018.ExpressTest -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
+</suite> <!-- Failed suite [Automation Suite] -->

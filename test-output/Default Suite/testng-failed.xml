@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="Maven_Selenium_Automation(failed)">
+    <classes>
+      <class name="day12_XMLSuite_05192018.Parallel_Testing">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="testScenario"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- day12_XMLSuite_05192018.Parallel_Testing -->
+    </classes>
+  </test> <!-- Maven_Selenium_Automation(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

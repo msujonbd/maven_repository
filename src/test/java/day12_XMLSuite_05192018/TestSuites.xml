@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite" parallel="none">
+    <test name="Firefox Test">
+
+        <parameter name="Browser" value="firefox"/>
+        <classes>
+            <class name="day12_XMLSuite_05192018.Parallel_Testing"/>
+        </classes>
+    </test>
+
+    <test name="Chrome Test">
+
+        <parameter name="Browser" value="chrome"/>
+        <classes>
+            <class name="day12_XMLSuite_05192018.Parallel_Testing"/>
+        </classes>
+    </test>
+</suite>
